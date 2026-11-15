@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "spotifylyrics",
+  "version": "${version}",
+  "name": "Spotify Lyrics",
+  "description": "Shows what Spotify is playing and synced lyrics, either in a chill top bar or floating around you.",
+  "authors": ["Mitchell"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.spotifylyrics.SpotifyLyricsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
